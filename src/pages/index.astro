@@ -1,0 +1,146 @@
+---
+import {Icon} from 'astro-icon/components';
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro Icons</title>
+	</head>
+	<body>
+
+<div id="wrapper">
+			
+			<h1>Astro Icons</h1>
+			<hr>
+	
+			<div class="icon-container">
+	
+				<a href="https://chs.chusd.org/">
+
+					<Icon name="career" size= {100} />
+				</a>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta quisquam voluptatem sit pariatur! Ex nemo aliquid perspiciatis ipsam eligendi voluptatem veritatis eveniet. Itaque obcaecati officia aspernatur, veritatis porro doloribus magni quasi amet, praesentium incidunt ipsum perspiciatis, accusantium officiis a mollitia!</p>
+			</div>
+
+			<div class="icon-container">
+
+				<a href="https://google.com/">
+
+					<Icon name="design" size= {100} />
+				</a>
+
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione dicta explicabo illo blanditiis officiis eligendi, ipsum consequuntur odio fugiat dolorem.</p>
+			</div>
+
+			<div class="icon-container">
+
+				<a href="https://yahoo.com/">
+
+					<Icon name="programming" size= {100} />
+				</a>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum officiis natus, esse architecto praesentium voluptatibus saepe nihil ab ut maiores accusantium et. Libero enim pariatur, facilis dignissimos esse tempora architecto molestias fugiat, expedita placeat maiores!</p>
+			</div>
+			
+			<div class="icon-container">
+
+				<a href="https://youtube.com/">
+
+					<Icon name="certificate" size= {100} />
+				</a>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum officiis natus, esse architecto praesentium voluptatibus saepe nihil ab ut maiores accusantium et. Libero enim pariatur, facilis dignissimos esse tempora architecto molestias fugiat, expedita placeat maiores!</p>
+			</div>
+
+</div>
+
+	</body>
+</html>
+
+<style>
+
+	#wrapper
+	{
+		max-width: 1200px;
+		margin: auto;
+	}
+
+	h1
+	{
+		text-align: center;
+	}
+
+	.icon-container
+	{
+		background-color: none;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: top;
+		line-height: 1.7;
+		gap: 2rem;
+	}
+
+	[data-icon = "career"]
+	{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+
+	[data-icon = "career"]:hover
+	{
+		transform: rotate(26deg);
+	}
+
+	[data-icon = "design"]
+	{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+
+	[data-icon = "design"]:hover
+	{
+		transform: rotate(26deg);
+	}
+
+	[data-icon = "programming"]
+	{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+
+	[data-icon = "programming"]:hover
+	{
+		transform: rotate(26deg);
+	}
+
+	[data-icon = "certificate"]
+	{
+		color: black;
+		min-width: 100px;
+		margin: 0.5rem;
+		padding: 0.5rem;
+		transition: all 0.25s;
+	}
+
+	[data-icon = "certificate"]:hover
+	{
+		transform: rotate(26deg);
+	}
+
+</style>
